@@ -1,0 +1,168 @@
+Performance Statistics   2018-01-31 16:32:00 - 2018-01-31 16:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 16:34:00 - 2018-01-31 16:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 16:36:00 - 2018-01-31 16:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 16:38:00 - 2018-01-31 16:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 16:40:00 - 2018-01-31 16:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 16:42:00 - 2018-01-31 16:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+inspectionrecord$DefectType.browse#init                  7.0           7           7         0.0           1
+inspectionrecord$DefectType.browse#inject                0.0           0           0         0.0           1
+inspectionrecord$DefectType.browse#load                191.0         191         191         0.0           1
+inspectionrecord$DefectType.browse#ready                 0.0           0           0         0.0           1
+inspectionrecord$DefectType.browse#uiPermissions         0.0           0           0         0.0           1
+inspectionrecord$DefectType.browse#xml                   1.0           1           1         0.0           1
+inspectionrecord$DefectType.browse@defectTypesDs       213.0         213         213         0.0           1
+inspectionrecord$Employee.browse#init                   33.0          33          33         0.0           1
+inspectionrecord$Employee.browse#inject                  0.0           0           0         0.0           1
+inspectionrecord$Employee.browse#load                  489.0         489         489         0.0           1
+inspectionrecord$Employee.browse#ready                   0.0           0           0         0.0           1
+inspectionrecord$Employee.browse#uiPermissions           0.0           0           0         0.0           1
+inspectionrecord$Employee.browse#xml                     2.0           2           2         0.0           1
+inspectionrecord$Employee.browse@employeesDs           275.0         275         275         0.0           1
+inspectionrecord$HtEmpl.browse#init                      0.0           0           0         0.0           1
+inspectionrecord$HtEmpl.browse#inject                    3.0           3           3         0.0           1
+inspectionrecord$HtEmpl.browse#load                   1445.0        1445        1445         0.0           1
+inspectionrecord$HtEmpl.browse#ready                     0.0           0           0         0.0           1
+inspectionrecord$HtEmpl.browse#uiPermissions             0.0           0           0         0.0           1
+inspectionrecord$HtEmpl.browse#xml                       4.0           4           4         0.0           1
+inspectionrecord$HtEmpl.browse@htEmplsDs              2521.0        2521        2521         0.0           1
+inspectionrecord$HtJob.browse#init                       0.0           0           0         0.0           1
+inspectionrecord$HtJob.browse#inject                     0.0           0           0         0.0           1
+inspectionrecord$HtJob.browse#load                      27.0          27          27         0.0           1
+inspectionrecord$HtJob.browse#ready                      0.0           0           0         0.0           1
+inspectionrecord$HtJob.browse#uiPermissions              0.0           0           0         0.0           1
+inspectionrecord$HtJob.browse#xml                        3.0           3           3         0.0           1
+inspectionrecord$HtJob.browse@htJobsDs                 194.0         194         194         0.0           1
+inspectionrecord$InspectionRecord.browse#init            5.0           5           5         0.0           1
+inspectionrecord$InspectionRecord.browse#inject          0.0           0           0         0.0           1
+inspectionrecord$InspectionRecord.browse#load          160.0         160         160         0.0           1
+inspectionrecord$InspectionRecord.browse#ready           0.0           0           0         0.0           1
+inspectionrecord$InspectionRecord.browse#uiPermissions         0.0           0           0         0.0           1
+inspectionrecord$InspectionRecord.browse#xml             3.0           3           3         0.0           1
+inspectionrecord$InspectionRecord.browse@inspectionRecordsDs       177.0         177         177         0.0           1
+inspectionrecord$Job.browse#init                         7.0           7           7         0.0           1
+inspectionrecord$Job.browse#inject                       0.0           0           0         0.0           1
+inspectionrecord$Job.browse#load                       116.0         116         116         0.0           1
+inspectionrecord$Job.browse#ready                        0.0           0           0         0.0           1
+inspectionrecord$Job.browse#uiPermissions                0.0           0           0         0.0           1
+inspectionrecord$Job.browse#xml                          1.0           1           1         0.0           1
+inspectionrecord$Job.browse@jobsDs                     258.0         258         258         0.0           1
+loginWindow#init                                        15.0          15          15         0.0           1
+loginWindow#inject                                     117.0         117         117         0.0           1
+loginWindow#load                                      1503.0        1503        1503         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                         37.0          37          37         0.0           1
+mainWindow#init                                         95.0          95          95         0.0           1
+mainWindow#inject                                        1.0           1           1         0.0           1
+mainWindow#load                                        802.0         802         802         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                           3.0           3           3         0.0           1
+
+Performance Statistics   2018-01-31 16:54:00 - 2018-01-31 16:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 16:56:00 - 2018-01-31 16:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 16:58:00 - 2018-01-31 17:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:00:00 - 2018-01-31 17:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:02:00 - 2018-01-31 17:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:04:00 - 2018-01-31 17:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:06:00 - 2018-01-31 17:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:08:00 - 2018-01-31 17:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:10:00 - 2018-01-31 17:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:12:00 - 2018-01-31 17:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:14:00 - 2018-01-31 17:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:16:00 - 2018-01-31 17:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:18:00 - 2018-01-31 17:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:20:00 - 2018-01-31 17:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:22:00 - 2018-01-31 17:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:24:00 - 2018-01-31 17:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:26:00 - 2018-01-31 17:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:28:00 - 2018-01-31 17:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:30:00 - 2018-01-31 17:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:32:00 - 2018-01-31 17:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:34:00 - 2018-01-31 17:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:36:00 - 2018-01-31 17:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:38:00 - 2018-01-31 17:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:40:00 - 2018-01-31 17:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:42:00 - 2018-01-31 17:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:44:00 - 2018-01-31 17:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:46:00 - 2018-01-31 17:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:48:00 - 2018-01-31 17:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:50:00 - 2018-01-31 17:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:52:00 - 2018-01-31 17:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:54:00 - 2018-01-31 17:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-01-31 17:56:00 - 2018-01-31 17:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

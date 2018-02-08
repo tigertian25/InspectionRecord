@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
+    <view class="com.artwell.inspectionrecord.entity.DefectType"
+          extends="_local"
+          name="defectType-view">
+        <property name="causeJob"
+                  view="_minimal">
+            <property name="htJob">
+                <property name="xName"/>
+            </property>
+        </property>
+        <property name="inspectionJobList"
+                  view="_minimal">
+            <property name="htJob">
+                <property name="xName"/>
+            </property>
+        </property>
+    </view>
+    <view class="com.artwell.inspectionrecord.entity.InspectionRecord"
+          extends="_local"
+          name="inspectionRecord-view">
+        <property name="employee"
+                  view="_minimal">
+            <property name="htEmpl">
+                <property name="xName"/>
+            </property>
+        </property>
+        <property name="defectTypeList"
+                  view="_minimal">
+            <property name="causeJob"
+                      view="_minimal"/>
+            <property name="inspectionJobList"
+                      view="_minimal"/>
+        </property>
+    </view>
+    <view class="com.artwell.inspectionrecord.entity.Employee"
+          extends="_local"
+          name="employee-view">
+        <property name="htEmpl"
+                  view="_minimal">
+            <property name="xNo"/>
+        </property>
+    </view>
+    <view class="com.artwell.inspectionrecord.entity.Job"
+          extends="_local"
+          name="job-view">
+        <property name="htJob"
+                  view="_minimal"/>
+    </view>
+</views>

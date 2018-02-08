@@ -1,0 +1,5 @@
+create table INSPECTIONRECORD_INSPECTION_RECORD_DEFECT_TYPE_LINK (
+    INSPECTION_RECORD_ID uniqueidentifier,
+    DEFECT_TYPE_ID uniqueidentifier,
+    primary key (INSPECTION_RECORD_ID, DEFECT_TYPE_ID)
+);

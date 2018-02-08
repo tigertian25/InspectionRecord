@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
+    <include file="com/artwell/inspectionrecord/screens.xml"/>
+    <screen id="inspectionrecord$HtEmpl.browse"
+            template="com/artwell/inspectionrecord/web/htempl/ht-empl-browse.xml"/>
+    <screen id="inspectionrecord$HtJob.browse"
+            template="com/artwell/inspectionrecord/web/htjob/ht-job-browse.xml"/>
+    <screen id="inspectionrecord$Job.browse"
+            template="com/artwell/inspectionrecord/web/job/job-browse.xml"/>
+    <screen id="inspectionrecord$DefectType.browse"
+            template="com/artwell/inspectionrecord/web/defecttype/defect-type-browse.xml"/>
+    <screen id="inspectionrecord$InspectionRecord.browse"
+            template="com/artwell/inspectionrecord/web/inspectionrecord/inspection-record-browse.xml"/>
+    <screen id="inspectionrecord$Employee.browse"
+            template="com/artwell/inspectionrecord/web/employee/employee-browse.xml"/>
+</screen-config>

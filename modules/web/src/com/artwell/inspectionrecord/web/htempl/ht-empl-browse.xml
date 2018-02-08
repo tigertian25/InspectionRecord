@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.artwell.inspectionrecord.web.htempl.HtEmplBrowse"
+        focusComponent="htEmplsTable"
+        lookupComponent="htEmplsTable"
+        messagesPack="com.artwell.inspectionrecord.web.htempl">
+    <dsContext>
+        <groupDatasource id="htEmplsDs"
+                         class="com.artwell.inspectionrecord.entity.HtEmpl"
+                         view="_local">
+            <query>
+                <![CDATA[select e from inspectionrecord$HtEmpl e]]>
+            </query>
+        </groupDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="htEmplsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="htEmplsTable"
+                datasource="htEmplsDs">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="htEmplsTable"
+                    width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="xNo"/>
+                <column id="xName"/>
+                <column id="xSpell"/>
+                <column id="xEName"/>
+                <column id="xName2"/>
+                <column id="xSex"/>
+                <column id="xOrder"/>
+                <column id="xIsSynch"/>
+                <column id="rDept"/>
+                <column id="rJob"/>
+                <column id="xPost"/>
+                <column id="xGroup"/>
+                <column id="xPaytype"/>
+                <column id="xWorkDate"/>
+                <column id="xJoinDate"/>
+                <column id="xJobDate"/>
+                <column id="xWed"/>
+                <column id="xNation"/>
+                <column id="xDegree"/>
+                <column id="xLevel"/>
+                <column id="xKind"/>
+                <column id="xIDNo"/>
+                <column id="xBirth"/>
+                <column id="xBirth2"/>
+                <column id="xTheBirth"/>
+                <column id="xIDAddr"/>
+                <column id="xNative"/>
+                <column id="xRegion"/>
+                <column id="xIsPhoto"/>
+                <column id="xIsCheck"/>
+                <column id="xCard"/>
+                <column id="xCheckDate"/>
+                <column id="xDefWitClass"/>
+                <column id="xDefClass"/>
+                <column id="xJobKind"/>
+                <column id="xJobLevel"/>
+                <column id="xInsureNo"/>
+                <column id="xIsSafety"/>
+                <column id="xIsPay"/>
+                <column id="xIsGrow"/>
+                <column id="xIsManager"/>
+                <column id="xIsTryout"/>
+                <column id="xIsOK"/>
+                <column id="xIsSecret"/>
+                <column id="xSecretKind"/>
+                <column id="xPact"/>
+                <column id="xKindDept"/>
+                <column id="xBTag"/>
+                <column id="xDimis"/>
+                <column id="xDimisDate"/>
+                <column id="xDimisMode"/>
+                <column id="xIsFullCheck"/>
+                <column id="xWorkDays"/>
+                <column id="xRestDays"/>
+                <column id="xDuty"/>
+                <column id="xPolity"/>
+                <column id="xIsInside"/>
+                <column id="xLead"/>
+                <column id="xBedNo"/>
+                <column id="xMachNo"/>
+                <column id="xFingerID"/>
+                <column id="xMach"/>
+                <column id="xAPaytype"/>
+                <column id="xAJoinDate"/>
+                <column id="xTag"/>
+                <column id="xTagBool"/>
+                <column id="xTagStr"/>
+                <column id="sVerNo"/>
+                <column id="sStatus"/>
+                <column id="sCreateDate"/>
+                <column id="sOwner"/>
+                <column id="sMender"/>
+                <column id="sChecker"/>
+                <column id="sAuditor"/>
+                <column id="sLastUpdate"/>
+                <column id="xPic"/>
+                <column id="xPic2"/>
+                <column id="xPic3"/>
+                <column id="xNote"/>
+                <column id="xNoHead"/>
+                <column id="xPassword"/>
+                <column id="rFlow"/>
+                <column id="xStr1"/>
+                <column id="xStr2"/>
+                <column id="xStr3"/>
+                <column id="xIsCard"/>
+                <column id="xHolGroup"/>
+                <column id="xIsFinger"/>
+                <column id="xFingerDate"/>
+                <column id="xIsCheckB"/>
+                <column id="xCheckDateB"/>
+                <column id="xCloth"/>
+                <column id="xPants"/>
+                <column id="xShoes"/>
+                <column id="xShoesNo"/>
+                <column id="xShoesIndex"/>
+                <column id="xCountry"/>
+                <column id="xBDimisDate"/>
+                <column id="xBDimisMode"/>
+                <column id="xJobInfo"/>
+                <column id="xIsFremd"/>
+                <column id="xCornet"/>
+                <column id="xEditOwner"/>
+                <column id="xMachGroup"/>
+                <column id="rIntro"/>
+                <column id="xIntroducer"/>
+                <column id="xIntroPay"/>
+                <column id="xInWorkSubPay"/>
+                <column id="xIsDeclarer"/>
+                <column id="xResidentCard"/>
+                <column id="xQBDate"/>
+                <column id="xQEDate"/>
+                <column id="xIsGetCard"/>
+                <column id="xIsInsure"/>
+                <column id="xPregnancy"/>
+                <column id="xGUID"/>
+                <column id="xOldJoinDate"/>
+                <column id="xFName"/>
+                <column id="xLName"/>
+                <column id="xRemark"/>
+                <column id="xSKill"/>
+                <column id="xIsUseWEB"/>
+                <column id="xIsClasswit"/>
+            </columns>
+            <rows datasource="htEmplsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="htEmplsTable.create"/>
+                <button id="editBtn"
+                        action="htEmplsTable.edit"/>
+                <button id="removeBtn"
+                        action="htEmplsTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+    </layout>
+</window>

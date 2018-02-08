@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             version="2.0">
+    <persistence-unit name="InspectionRecord"
+                      transaction-type="RESOURCE_LOCAL">
+        <class>com.artwell.inspectionrecord.entity.Employee</class>
+        <class>com.artwell.inspectionrecord.entity.DefectType</class>
+        <class>com.artwell.inspectionrecord.entity.InspectionRecord</class>
+        <class>com.artwell.inspectionrecord.entity.Job</class>
+    </persistence-unit>
+</persistence>

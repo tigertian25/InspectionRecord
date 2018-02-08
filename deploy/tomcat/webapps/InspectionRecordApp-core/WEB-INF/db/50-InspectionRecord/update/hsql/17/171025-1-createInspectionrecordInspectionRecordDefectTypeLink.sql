@@ -1,0 +1,5 @@
+create table INSPECTIONRECORD_INSPECTION_RECORD_DEFECT_TYPE_LINK (
+    INSPECTION_RECORD_ID varchar(36) not null,
+    DEFECT_TYPE_ID varchar(36) not null,
+    primary key (INSPECTION_RECORD_ID, DEFECT_TYPE_ID)
+);

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.artwell.inspectionrecord.web.employee.EmployeeBrowse"
+        focusComponent="employeesTable"
+        lookupComponent="employeesTable"
+        messagesPack="com.artwell.inspectionrecord.web.employee">
+    <dsContext>
+        <datasource id="employeeDs"
+                    class="com.artwell.inspectionrecord.entity.Employee"
+                    view="employee-view"/>
+        <groupDatasource id="employeesDs"
+                         class="com.artwell.inspectionrecord.entity.Employee"
+                         view="employee-view">
+            <query>
+                <![CDATA[select e from inspectionrecord$Employee e]]>
+            </query>
+        </groupDatasource>
+    </dsContext>
+    <actions>
+        <action id="save"
+                caption="mainMsg://actions.Ok"
+                icon="icons/ok.png"
+                invoke="save"
+                shortcut="CTRL-ENTER"/>
+        <action id="cancel"
+                caption="mainMsg://actions.Cancel"
+                description="Esc"
+                icon="icons/cancel.png"
+                invoke="cancel"/>
+    </actions>
+    <dialogMode height="600"
+                width="800"/>
+    <layout>
+        <split id="split"
+               height="100%"
+               orientation="horizontal"
+               reversePosition="true"
+               width="100%">
+            <vbox id="lookupBox"
+                  expand="employeesTable"
+                  height="100%"
+                  margin="false,true,false,false"
+                  spacing="true">
+                <filter id="filter"
+                        applyTo="employeesTable"
+                        datasource="employeesDs">
+                    <properties include=".*"/>
+                </filter>
+                <groupTable id="employeesTable"
+                            width="100%">
+                    <actions>
+                        <action id="create"/>
+                        <action id="edit"/>
+                        <action id="remove"/>
+                    </actions>
+                    <columns>
+                        <column id="htEmpl"/>
+                        <column id="htEmplId"/>
+                        <column id="htEmpl.xNo"/>
+                    </columns>
+                    <rows datasource="employeesDs"/>
+                    <rowsCount/>
+                    <buttonsPanel id="buttonsPanel"
+                                  alwaysVisible="true">
+                        <button id="createBtn"
+                                action="employeesTable.create"/>
+                        <button id="editBtn"
+                                action="employeesTable.edit"/>
+                        <button id="removeBtn"
+                                action="employeesTable.remove"/>
+                    </buttonsPanel>
+                </groupTable>
+            </vbox>
+            <vbox id="editBox"
+                  expand="fieldGroupBox"
+                  height="100%"
+                  margin="false,false,false,true"
+                  spacing="true">
+                <vbox id="fieldGroupBox">
+                    <fieldGroup id="fieldGroup"
+                                datasource="employeeDs">
+                        <column width="250px">
+                            <field property="htEmpl"/>
+                        </column>
+                    </fieldGroup>
+                </vbox>
+                <hbox id="actionsPane"
+                      spacing="true"
+                      visible="false">
+                    <button id="saveBtn"
+                            action="save"/>
+                    <button id="cancelBtn"
+                            action="cancel"/>
+                </hbox>
+            </vbox>
+        </split>
+    </layout>
+</window>

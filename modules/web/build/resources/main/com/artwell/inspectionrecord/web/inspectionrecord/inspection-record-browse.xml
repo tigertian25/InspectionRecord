@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.artwell.inspectionrecord.web.inspectionrecord.InspectionRecordBrowse"
+        focusComponent="inspectionRecordsTable"
+        lookupComponent="inspectionRecordsTable"
+        messagesPack="com.artwell.inspectionrecord.web.inspectionrecord">
+    <dsContext>
+        <datasource id="inspectionRecordDs"
+                    class="com.artwell.inspectionrecord.entity.InspectionRecord"
+                    view="inspectionRecord-view">
+            <collectionDatasource id="defectTypeListDs"
+                                  property="defectTypeList"/>
+        </datasource>
+        <groupDatasource id="inspectionRecordsDs"
+                         class="com.artwell.inspectionrecord.entity.InspectionRecord"
+                         view="inspectionRecord-view">
+            <query>
+                <![CDATA[select e from inspectionrecord$InspectionRecord e]]>
+            </query>
+        </groupDatasource>
+    </dsContext>
+    <actions>
+        <action id="save"
+                caption="mainMsg://actions.Ok"
+                icon="icons/ok.png"
+                invoke="save"
+                shortcut="CTRL-ENTER"/>
+        <action id="cancel"
+                caption="mainMsg://actions.Cancel"
+                description="Esc"
+                icon="icons/cancel.png"
+                invoke="cancel"/>
+    </actions>
+    <dialogMode height="600"
+                width="800"/>
+    <layout>
+        <split id="split"
+               height="100%"
+               orientation="horizontal"
+               reversePosition="true"
+               width="100%">
+            <vbox id="lookupBox"
+                  expand="inspectionRecordsTable"
+                  height="100%"
+                  margin="false,true,false,false"
+                  spacing="true">
+                <filter id="filter"
+                        applyTo="inspectionRecordsTable"
+                        datasource="inspectionRecordsDs">
+                    <properties include=".*"/>
+                </filter>
+                <groupTable id="inspectionRecordsTable"
+                            width="100%">
+                    <actions>
+                        <action id="create"/>
+                        <action id="edit"/>
+                        <action id="remove"/>
+                    </actions>
+                    <columns>
+                        <column id="eventDateTime"/>
+                        <column id="employee"/>
+                        <column id="barcode"/>
+                    </columns>
+                    <rows datasource="inspectionRecordsDs"/>
+                    <rowsCount/>
+                    <buttonsPanel id="buttonsPanel"
+                                  alwaysVisible="true">
+                        <button id="createBtn"
+                                action="inspectionRecordsTable.create"/>
+                        <button id="editBtn"
+                                action="inspectionRecordsTable.edit"/>
+                        <button id="removeBtn"
+                                action="inspectionRecordsTable.remove"/>
+                    </buttonsPanel>
+                </groupTable>
+            </vbox>
+            <vbox id="editBox"
+                  expand="tabSheetBox"
+                  height="100%"
+                  margin="false,false,false,true"
+                  spacing="true">
+                <vbox id="tabSheetBox">
+                    <tabSheet id="tabSheet"
+                              height="100%">
+                        <tab id="mainTab"
+                             caption="msg://mainTab"
+                             margin="true">
+                            <fieldGroup id="fieldGroup"
+                                        datasource="inspectionRecordDs">
+                                <column width="250px">
+                                    <field property="eventDateTime"/>
+                                    <field property="employee"/>
+                                    <field property="barcode"/>
+                                </column>
+                            </fieldGroup>
+                        </tab>
+                        <tab id="defectTypeListTab"
+                             caption="msg://com.artwell.inspectionrecord.entity/InspectionRecord.defectTypeList"
+                             margin="true,false,false,false">
+                            <table id="defectTypeListTable"
+                                   height="200px"
+                                   width="100%">
+                                <actions>
+                                    <action id="add"/>
+                                    <action id="remove"/>
+                                </actions>
+                                <columns>
+                                    <column id="name"/>
+                                </columns>
+                                <rows datasource="defectTypeListDs"/>
+                                <buttonsPanel>
+                                    <button action="defectTypeListTable.add"/>
+                                    <button action="defectTypeListTable.remove"/>
+                                </buttonsPanel>
+                            </table>
+                        </tab>
+                    </tabSheet>
+                </vbox>
+                <hbox id="actionsPane"
+                      spacing="true"
+                      visible="false">
+                    <button id="saveBtn"
+                            action="save"/>
+                    <button id="cancelBtn"
+                            action="cancel"/>
+                </hbox>
+            </vbox>
+        </split>
+    </layout>
+</window>

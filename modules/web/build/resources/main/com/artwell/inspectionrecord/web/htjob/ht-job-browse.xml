@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.artwell.inspectionrecord.web.htjob.HtJobBrowse"
+        focusComponent="htJobsTable"
+        lookupComponent="htJobsTable"
+        messagesPack="com.artwell.inspectionrecord.web.htjob">
+    <dsContext>
+        <groupDatasource id="htJobsDs"
+                         class="com.artwell.inspectionrecord.entity.HtJob"
+                         view="_local">
+            <query>
+                <![CDATA[select e from inspectionrecord$HtJob e]]>
+            </query>
+        </groupDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="htJobsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="htJobsTable"
+                datasource="htJobsDs">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="htJobsTable"
+                    width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="sCode"/>
+                <column id="xName"/>
+                <column id="xTag"/>
+                <column id="xOrder"/>
+                <column id="xNote"/>
+                <column id="xTagStr"/>
+                <column id="sVerNo"/>
+                <column id="sStatus"/>
+                <column id="sCreateDate"/>
+                <column id="sOwner"/>
+                <column id="sMender"/>
+                <column id="sChecker"/>
+                <column id="sAuditor"/>
+                <column id="sLastUpdate"/>
+                <column id="xKind"/>
+                <column id="xIsSubsidy"/>
+                <column id="xIsRequest"/>
+                <column id="xMinYear"/>
+                <column id="xMaxYear"/>
+                <column id="xMinSchool"/>
+                <column id="xRemark"/>
+                <column id="xIsStop"/>
+                <column id="xJobGroup"/>
+                <column id="xProperty"/>
+                <column id="xPaytype"/>
+                <column id="xJobPact"/>
+                <column id="xDefInt"/>
+                <column id="xDefReal"/>
+                <column id="xGUID"/>
+                <column id="xNoHead"/>
+                <column id="xLimitAge"/>
+                <column id="xMinAge"/>
+                <column id="xMaxAge"/>
+                <column id="xEJobName"/>
+            </columns>
+            <rows datasource="htJobsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="htJobsTable.create"/>
+                <button id="editBtn"
+                        action="htJobsTable.edit"/>
+                <button id="removeBtn"
+                        action="htJobsTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+    </layout>
+</window>

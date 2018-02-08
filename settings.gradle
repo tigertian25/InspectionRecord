@@ -1,0 +1,6 @@
+rootProject.name = 'InspectionRecord'
+include(':InspectionRecordApp-global', ':InspectionRecordApp-core', ':InspectionRecordApp-gui', ':InspectionRecordApp-web')
+project(':InspectionRecordApp-global').projectDir = new File(settingsDir, 'modules/global')
+project(':InspectionRecordApp-core').projectDir = new File(settingsDir, 'modules/core')
+project(':InspectionRecordApp-gui').projectDir = new File(settingsDir, 'modules/gui')
+project(':InspectionRecordApp-web').projectDir = new File(settingsDir, 'modules/web')

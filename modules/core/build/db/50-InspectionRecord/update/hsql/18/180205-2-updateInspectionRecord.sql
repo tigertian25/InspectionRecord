@@ -1,0 +1,4 @@
+alter table INSPECTIONRECORD_INSPECTION_RECORD drop column BARCODE cascade ;
+alter table INSPECTIONRECORD_INSPECTION_RECORD add column BARCODE varchar(255) ^
+update INSPECTIONRECORD_INSPECTION_RECORD set BARCODE = '' where BARCODE is null ;
+alter table INSPECTIONRECORD_INSPECTION_RECORD alter column BARCODE set not null ;

@@ -1,0 +1,89 @@
+Performance Statistics   2018-02-02 16:22:00 - 2018-02-02 16:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#init                                        14.0          14          14         0.0           1
+loginWindow#inject                                       9.0           9           9         0.0           1
+loginWindow#load                                       271.0         271         271         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                          8.0           8           8         0.0           1
+mainWindow#init                                         21.0          21          21         0.0           1
+mainWindow#inject                                        3.0           3           3         0.0           1
+mainWindow#load                                        209.0         209         209         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                           3.0           3           3         0.0           1
+
+Performance Statistics   2018-02-02 16:26:00 - 2018-02-02 16:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-02-02 16:28:00 - 2018-02-02 16:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-02-02 16:30:00 - 2018-02-02 16:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-02-02 16:32:00 - 2018-02-02 16:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-02-02 16:34:00 - 2018-02-02 16:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-02-02 16:36:00 - 2018-02-02 16:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-02-02 16:38:00 - 2018-02-02 16:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+addCondition#init                                       13.0          13          13         0.0           1
+addCondition#inject                                      1.0           1           1         0.0           1
+addCondition#load                                       25.0          25          25         0.0           1
+addCondition#ready                                       0.0           0           0         0.0           1
+addCondition#uiPermissions                               0.0           0           0         0.0           1
+addCondition#xml                                         0.0           0           0         0.0           1
+addCondition@conditionDescriptorsDs                      0.3           0           1         0.5           6
+inspectionrecord$HtEmpl.browse#init                      0.0           0           0         0.0           1
+inspectionrecord$HtEmpl.browse#inject                    1.0           1           1         0.0           1
+inspectionrecord$HtEmpl.browse#load                    503.0         503         503         0.0           1
+inspectionrecord$HtEmpl.browse#ready                     0.0           0           0         0.0           1
+inspectionrecord$HtEmpl.browse#uiPermissions             0.0           0           0         0.0           1
+inspectionrecord$HtEmpl.browse#xml                       4.0           4           4         0.0           1
+inspectionrecord$HtEmpl.browse@htEmplsDs               581.0         250        1532       549.1           4
+loginWindow#init                                        10.0          10          10         0.0           1
+loginWindow#inject                                       8.0           8           8         0.0           1
+loginWindow#load                                       288.0         288         288         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                         13.0          13          13         0.0           1
+mainWindow#init                                         13.0          13          13         0.0           1
+mainWindow#inject                                        1.0           1           1         0.0           1
+mainWindow#load                                        151.0         151         151         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                           1.0           1           1         0.0           1
+
+Performance Statistics   2018-02-02 16:40:00 - 2018-02-02 16:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-02-02 16:42:00 - 2018-02-02 16:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-02-02 16:50:00 - 2018-02-02 16:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#init                                       354.0         354         354         0.0           1
+loginWindow#inject                                     290.0         290         290         0.0           1
+loginWindow#load                                      5961.0        5961        5961         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                         71.0          71          71         0.0           1
+
+Performance Statistics   2018-02-02 16:52:00 - 2018-02-02 16:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-02-02 16:54:00 - 2018-02-02 16:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-02-02 16:56:00 - 2018-02-02 16:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2018-02-02 16:58:00 - 2018-02-02 17:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

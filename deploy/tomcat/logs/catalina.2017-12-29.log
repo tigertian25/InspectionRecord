@@ -1,0 +1,98 @@
+29-Dec-2017 10:37:27.967 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.14
+29-Dec-2017 10:37:27.976 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2017 12:55:45 UTC
+29-Dec-2017 10:37:27.977 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.14.0
+29-Dec-2017 10:37:27.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+29-Dec-2017 10:37:27.979 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Dec-2017 10:37:27.979 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Dec-2017 10:37:27.980 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+29-Dec-2017 10:37:27.981 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+29-Dec-2017 10:37:27.982 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Dec-2017 10:37:27.983 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat
+29-Dec-2017 10:37:27.984 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat
+29-Dec-2017 10:37:27.985 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\conf\logging.properties
+29-Dec-2017 10:37:27.986 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Dec-2017 10:37:27.986 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Dec-2017 10:37:27.987 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Dec-2017 10:37:27.988 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+29-Dec-2017 10:37:27.989 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+29-Dec-2017 10:37:27.989 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Dec-2017 10:37:27.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=../conf/logback.xml
+29-Dec-2017 10:37:27.991 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+29-Dec-2017 10:37:27.991 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat
+29-Dec-2017 10:37:27.992 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat
+29-Dec-2017 10:37:27.993 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\temp
+29-Dec-2017 10:37:27.994 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Program Files\Java\gradle-4.4.1-all\gradle-4.4.1/bin;C:\Program Files\Java\apache-maven-3.5.2\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;.
+29-Dec-2017 10:37:30.713 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Dec-2017 10:37:30.740 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Dec-2017 10:37:30.747 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+29-Dec-2017 10:37:30.749 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Dec-2017 10:37:30.750 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3209 ms
+29-Dec-2017 10:37:30.791 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+29-Dec-2017 10:37:30.792 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.14
+29-Dec-2017 10:37:30.800 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app
+29-Dec-2017 10:37:42.736 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app has finished in 11,935 ms
+29-Dec-2017 10:37:42.737 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app-core
+29-Dec-2017 10:37:52.632 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app-core has finished in 9,895 ms
+29-Dec-2017 10:37:52.632 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app-portal
+29-Dec-2017 10:37:55.869 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app-portal has finished in 3,237 ms
+29-Dec-2017 10:37:55.875 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Dec-2017 10:37:55.899 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+29-Dec-2017 10:37:55.903 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 25153 ms
+29-Dec-2017 10:37:57.080 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Dec-2017 10:37:57.082 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Dec-2017 10:37:57.153 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+29-Dec-2017 10:37:57.223 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+29-Dec-2017 10:37:57.316 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Dec-2017 10:37:57.322 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+29-Dec-2017 10:37:57.324 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Dec-2017 10:37:57.326 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+29-Dec-2017 10:58:09.157 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.14
+29-Dec-2017 10:58:09.178 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2017 12:55:45 UTC
+29-Dec-2017 10:58:09.179 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.14.0
+29-Dec-2017 10:58:09.181 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+29-Dec-2017 10:58:09.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Dec-2017 10:58:09.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Dec-2017 10:58:09.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+29-Dec-2017 10:58:09.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+29-Dec-2017 10:58:09.187 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Dec-2017 10:58:09.188 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat
+29-Dec-2017 10:58:09.190 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat
+29-Dec-2017 10:58:09.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\conf\logging.properties
+29-Dec-2017 10:58:09.193 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Dec-2017 10:58:09.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Dec-2017 10:58:09.195 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Dec-2017 10:58:09.197 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+29-Dec-2017 10:58:09.199 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+29-Dec-2017 10:58:09.200 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Dec-2017 10:58:09.201 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=../conf/logback.xml
+29-Dec-2017 10:58:09.202 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+29-Dec-2017 10:58:09.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat
+29-Dec-2017 10:58:09.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat
+29-Dec-2017 10:58:09.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\temp
+29-Dec-2017 10:58:09.208 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Program Files\Java\gradle-4.4.1-all\gradle-4.4.1/bin;C:\Program Files\Java\apache-maven-3.5.2\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;.
+29-Dec-2017 10:58:11.856 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Dec-2017 10:58:11.921 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Dec-2017 10:58:11.926 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+29-Dec-2017 10:58:11.932 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Dec-2017 10:58:11.934 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3289 ms
+29-Dec-2017 10:58:11.989 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+29-Dec-2017 10:58:11.991 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.14
+29-Dec-2017 10:58:12.005 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app
+29-Dec-2017 10:58:23.262 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app has finished in 11,255 ms
+29-Dec-2017 10:58:23.263 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app-core
+29-Dec-2017 10:58:33.821 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+29-Dec-2017 10:58:33.823 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/app-core] startup failed due to previous errors
+29-Dec-2017 10:58:33.847 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app-core has finished in 10,584 ms
+29-Dec-2017 10:58:33.849 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app-portal
+29-Dec-2017 10:58:37.703 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Admin\Desktop\program\studio-projects\InspectionRecord\deploy\tomcat\webapps\app-portal has finished in 3,854 ms
+29-Dec-2017 10:58:37.709 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Dec-2017 10:58:37.722 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+29-Dec-2017 10:58:37.727 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 25792 ms
+29-Dec-2017 11:00:20.235 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Dec-2017 11:00:20.238 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Dec-2017 11:00:20.310 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+29-Dec-2017 11:00:20.375 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+29-Dec-2017 11:00:20.435 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Dec-2017 11:00:20.442 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+29-Dec-2017 11:00:20.444 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Dec-2017 11:00:20.446 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

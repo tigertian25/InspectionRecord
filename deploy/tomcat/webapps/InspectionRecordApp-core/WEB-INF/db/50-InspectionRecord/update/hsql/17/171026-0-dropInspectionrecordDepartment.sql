@@ -1,0 +1,1 @@
+drop table INSPECTIONRECORD_DEPARTMENT cascade ;
